@@ -12,9 +12,11 @@ The **Angel Studios Movie Recommender** solves this by pairing offline Python ma
 
 ## Project Leadership & Engineering Team
 
-Built and engineered by software engineers:
+Built and engineered by a team of software engineers and designers:
 - **Tayt Godwin** — Project Lead & Full-Stack Developer (React 19 + TypeScript Frontend UI, C# ASP.NET Core REST API, Database Architecture & Auth Security)
 - **Mason Dalton** — Machine Learning Engineer & Data Pipeline Developer
+- **Mekeli Hiller** — Frontend Designer & UI Developer
+- **Maya Hom** — Frontend Designer & UI Developer
 
 ---
 
@@ -23,14 +25,16 @@ Built and engineered by software engineers:
 1. **ML Model Training & Vector Generation**: Python data processing scripts train collaborative filtering and content-based recommendation models on movie ratings and metadata datasets.
 2. **Sub-50ms REST API Serving**: C# ASP.NET Core backend exposes optimized REST endpoints that fetch recommendation vectors and filter movie titles with sub-50ms query latency.
 3. **Interactive React 19 UI**: Animated React + TypeScript single-page application built with Framer Motion, offering dynamic movie carousels, instant search filtering, and detailed modal deep dives.
-4. **Role-Based Auth & Cybersecurity**: Secure user authentication layer with password hashing, role-based access control (User/Admin), and input data validation.
-5. **Database & Persistence**: SQLite / SQL Server relational database managed with Entity Framework Core (EF Core) handling user accounts, watchlist items, and movie metadata.
+4. **Automated Azure CI/CD Pipeline**: Continuous Integration and Continuous Deployment pipeline configured through Azure DevOps for automated build testing and deployment.
+5. **Role-Based Auth & Cybersecurity**: Secure user authentication layer with password hashing, role-based access control (User/Admin), and input data validation.
+6. **Database & Persistence**: SQLite / SQL Server relational database managed with Entity Framework Core (EF Core) handling user accounts, watchlist items, and movie metadata.
 
 ---
 
 ## Features
 
 - **Hybrid Recommendation Engine**: Combines collaborative filtering (user rating history) and content-based filtering (metadata similarity) for accurate suggestions.
+- **Automated Azure CI/CD Deployment**: Automated build pipelines and continuous integration via Azure DevOps.
 - **Ultra-Fast API Response Times**: C# ASP.NET Core 8 REST controllers optimized with EF Core query tuning.
 - **Rich Animated UI / UX**: Modern streaming layout featuring responsive horizontal sliders, category filters, and smooth state transitions with Framer Motion.
 - **Role-Based Security**: Secured admin control panel for catalog management alongside user profile watchlists.
@@ -46,6 +50,7 @@ Built and engineered by software engineers:
 | **Backend API** | C# ASP.NET Core 8 Web API, Entity Framework Core |
 | **Machine Learning** | Python, pandas, scikit-learn, NumPy |
 | **Database & Auth** | SQLite / SQL Server, ASP.NET Core Identity |
+| **DevOps & Cloud** | Azure CI/CD Pipelines, Azure DevOps |
 | **Dev Tools** | Visual Studio / VS Code, Git |
 
 ---
